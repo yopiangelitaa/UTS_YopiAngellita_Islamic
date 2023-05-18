@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_201">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tata Cara Wudhu"
+                    android:fontFamily="@font/ratumba"
+                    android:textColor="@color/purple_500"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:background="@color/purple_200">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="115dp"
+                        android:background="@drawable/w1"
+                        android:paddingTop="20dp"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Berniat dan membasuh tangan Berdoa sebelum berwudhu dan Membasuh kedua telapak tangan sampai pergelangan sebanyak 1 kall (wajib) atau 3 kali (sunat) sambil membaca basmalah."
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/purple_200">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/w2"
+                        android:paddingTop="20dp"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Berkumur-kumur Berkumur-kumur sebanyak 3 kali."
+                        android:textSize="16dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/purple_200">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/w3"
+                        android:paddingTop="20dp"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mencuci Hidung Membersihkan lubang hidung dan menyemprotkan kembali sebanyak 3 kali."
+                        android:textSize="16dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/purple_200">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/w4"
+                        android:paddingTop="20dp"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Menbasuh wajah Membasuh wajah sebanyak 1 kali (wajib) atau 3 kali (sunat) sambil membaca niat."
+                        android:textSize="16dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/purple_200">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/w5"
+                        android:paddingTop="20dp"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Membasuh tangan Membasuh kedua tangan sampai siku dimulai dari tangan kanan diikuti tangan kiri sebanyak 1 kali (wajib) atau 3 kali (sunat)."
+                        android:textSize="16dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/purple_200">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/w7"
+                        android:paddingTop="20dp"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mengusap kepala Mengusap sebagian atau seluruh rambut kepala."
+                        android:textSize="16dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/purple_200">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/w7"
+                        android:paddingTop="20dp"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Membasuh telinga Membasuh kedua daun telinga luar dan dalam."
+                        android:textSize="16dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@color/purple_200">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/w8"
+                        android:paddingTop="20dp"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Membasuh kaki dan membaca doa. Membasuh kedua kaki sampai mata kaki dengan membasuh bagian punggung dan telapak kaki sebanyak 1 kali (wajib) atau 3 kali (sunat),dan kemudian membaca doa setelah wudhu"
+                        android:textSize="16dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
